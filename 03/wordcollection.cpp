@@ -47,7 +47,7 @@ void WordCollection::Print() const
 
 
 // TODO: 02. sa se defineasca operatorul: string operator[] (int index) const
-string& WordCollection::operator[] (int index) const
+string WordCollection::operator[] (int index) const
 {
     return _words[index];
 }
