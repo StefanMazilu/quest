@@ -25,6 +25,8 @@ public:
 
     // TODO: 01. sa se declare operatorul de indexare: string operator[] (int index) const
     string& operator[] (int index) const;
+
+    void Add(string&);
 };
 
 #endif // WORDCOLLECTION_H
